@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#linkForm {
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+#dateTime {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-link {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.social-link:hover {
+  color: #333;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
